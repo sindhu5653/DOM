@@ -22,14 +22,18 @@ console.log(typeof paragraphs); //object
 
 //CHECK BOX
 const checkboxes = document.querySelectorAll(".check");
-  checkboxes.forEach(box => {
-    box.addEventListener("change", () => {
-      const checkedValues = Array.from(checkboxes)
-        .filter(cb => cb.checked)
-        .map(cb => cb.value);
-      console.log("Checked items:", checkedValues);
-    });
-  });
+console.log(typeof checkboxes);
+
+checkboxes.forEach(input=>{
+  // console.log(input,"this is input");
+  // console.log(input.checked);
+  if(input.checked){
+    console.log(input, "checked");
+  }
+  else{
+    console.log(input,"not checked"); 
+  } 
+});
 
 
   //LIST ITEMS

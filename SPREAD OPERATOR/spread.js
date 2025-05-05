@@ -12,12 +12,12 @@
 // console.log(globalPlayer);
 
 
-const globalPlayer1=["Rahul","Ajay","Jhon"];
-const globalPlayer2=["Ramu","Raju","Balu"];
+const globalPlayer1 = ["Rahul", "Ajay", "Jhon"];
+const globalPlayer2 = ["Ramu", "Raju", "Balu"];
 
 // const player1=globalPlayer1.concat(globalPlayer2);
 
-const player1=[  ...globalPlayer1, ...globalPlayer2];
+const player1 = [...globalPlayer1, ...globalPlayer2];
 console.log(player1);
 
 
